@@ -6,6 +6,7 @@ import Button from 'react-bootstrap/Button';
 import Memes from "./memes";
 import News from "./news";
 import plant from '../images/plant.png'
+import NewsNew from "./newsNew";
 
 export default function HomeNew() {
   return (
@@ -39,7 +40,7 @@ export default function HomeNew() {
           <Col sm={12} lg={6}>
             <div style={{marginTop:'10%',marginLeft:'10%'}}>
             {/* <img src={tree} height='100%' width='100%' style={{marginTop:'20%',marginBottom:'5%'}}/> */}
-            <News/>
+            <NewsNew/>
             </div>
             
           </Col>
